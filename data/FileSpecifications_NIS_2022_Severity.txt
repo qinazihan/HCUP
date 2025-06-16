@@ -1,0 +1,26 @@
+Data Set Name: NIS_2022_SEVERITY               
+Number of Observations: 6578372
+Total Record Length: 23
+Total Number of Data Elements: 5
+Created on 10/15/2024.
+
+
+Columns   Description
+=======   ===========
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 35    File name
+37- 40    Data element number
+42- 70    Data element name
+72- 75    Starting column of data element in ASCII file
+77- 80    Ending column of data element in ASCII file
+82- 82    Non-zero number of digits after decimal point for numeric data element
+84- 87    Data element type (Num=numeric; Char=character)
+89-188    Data element label
+
+
+NIS 2022 NIS_2022_Severity             1 HOSP_NIS                         1    5   Num  NIS hospital number
+NIS 2022 NIS_2022_Severity             2 KEY_NIS                          6   15   Num  NIS record number
+NIS 2022 NIS_2022_Severity             3 APRDRG                          16   19   Num  All Patient Refined DRG
+NIS 2022 NIS_2022_Severity             4 APRDRG_Risk_Mortality           20   21   Num  All Patient Refined DRG: Risk of Mortality Subclass
+NIS 2022 NIS_2022_Severity             5 APRDRG_Severity                 22   23   Num  All Patient Refined DRG: Severity of Illness Subclass

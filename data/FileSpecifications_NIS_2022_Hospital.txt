@@ -1,0 +1,35 @@
+Data Set Name: NIS_2022_HOSPITAL               
+Number of Observations: 4544
+Total Record Length: 64
+Total Number of Data Elements: 14
+Created on 10/15/2024.
+
+
+Columns   Description
+=======   ===========
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 35    File name
+37- 40    Data element number
+42- 70    Data element name
+72- 75    Starting column of data element in ASCII file
+77- 80    Ending column of data element in ASCII file
+82- 82    Non-zero number of digits after decimal point for numeric data element
+84- 87    Data element type (Num=numeric; Char=character)
+89-188    Data element label
+
+
+NIS 2022 NIS_2022_Hospital             1 DISCWT                           1   11 7 Num  NIS discharge weight
+NIS 2022 NIS_2022_Hospital             2 HOSP_BEDSIZE                    12   13   Num  Relative bed size category of hospital (STRATA)
+NIS 2022 NIS_2022_Hospital             3 HOSP_DIVISION                   14   15   Num  Census Division of hospital (STRATA)
+NIS 2022 NIS_2022_Hospital             4 HOSP_LOCTEACH                   16   17   Num  Location/teaching status of hospital (STRATA)
+NIS 2022 NIS_2022_Hospital             5 HOSP_NIS                        18   22   Num  NIS hospital number
+NIS 2022 NIS_2022_Hospital             6 HOSP_REGION                     23   24   Num  Region of hospital
+NIS 2022 NIS_2022_Hospital             7 H_CONTRL                        25   26   Num  Control/ownership of hospital (STRATA)
+NIS 2022 NIS_2022_Hospital             8 NIS_STRATUM                     27   30   Num  NIS hospital stratum
+NIS 2022 NIS_2022_Hospital             9 N_DISC_U                        31   38   Num  Number of universe discharges in the stratum
+NIS 2022 NIS_2022_Hospital            10 N_HOSP_U                        39   42   Num  Number of universe hospitals in the stratum
+NIS 2022 NIS_2022_Hospital            11 S_DISC_U                        43   50   Num  Number of sample discharges in the stratum
+NIS 2022 NIS_2022_Hospital            12 S_HOSP_U                        51   54   Num  Number of sample hospitals in the stratum
+NIS 2022 NIS_2022_Hospital            13 TOTAL_DISC                      55   60   Num  Total number of discharges from this hospital in the NIS
+NIS 2022 NIS_2022_Hospital            14 YEAR                            61   64   Num  Calendar year

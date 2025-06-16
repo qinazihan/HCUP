@@ -197,3 +197,4 @@ cython_debug/
 *.ASC
 *.csv
 *.xlsx
+/docs/
