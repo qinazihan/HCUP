@@ -1,0 +1,148 @@
+Data Set Name: NIS_2022_CORE                   
+Number of Observations: 6578372
+Total Record Length: 647
+Total Number of Data Elements: 127
+Created on 10/15/2024.
+
+
+Columns   Description
+=======   ===========
+ 1-  3    Database name
+ 5-  8    Discharge year of data
+10- 35    File name
+37- 40    Data element number
+42- 70    Data element name
+72- 75    Starting column of data element in ASCII file
+77- 80    Ending column of data element in ASCII file
+82- 82    Non-zero number of digits after decimal point for numeric data element
+84- 87    Data element type (Num=numeric; Char=character)
+89-188    Data element label
+
+
+NIS 2022 NIS_2022_Core                 1 AGE                              1    3   Num  Age in years at admission
+NIS 2022 NIS_2022_Core                 2 AGE_NEONATE                      4    5   Num  Neonatal age (first 28 days after birth) indicator
+NIS 2022 NIS_2022_Core                 3 AMONTH                           6    7   Num  Admission month
+NIS 2022 NIS_2022_Core                 4 AWEEKEND                         8    9   Num  Admission day is a weekend
+NIS 2022 NIS_2022_Core                 5 DIED                            10   11   Num  Died during hospitalization
+NIS 2022 NIS_2022_Core                 6 DISCWT                          12   22 7 Num  NIS discharge weight
+NIS 2022 NIS_2022_Core                 7 DISPUNIFORM                     23   24   Num  Disposition of patient (uniform)
+NIS 2022 NIS_2022_Core                 8 DQTR                            25   26   Num  Discharge quarter
+NIS 2022 NIS_2022_Core                 9 DRG                             27   29   Num  DRG in effect on discharge date
+NIS 2022 NIS_2022_Core                10 DRGVER                          30   31   Num  DRG grouper version used on discharge date
+NIS 2022 NIS_2022_Core                11 DRG_NoPOA                       32   34   Num  DRG in use on discharge date, calculated without POA
+NIS 2022 NIS_2022_Core                12 ELECTIVE                        35   36   Num  Elective versus non-elective admission
+NIS 2022 NIS_2022_Core                13 FEMALE                          37   38   Num  Indicator of sex
+NIS 2022 NIS_2022_Core                14 HCUP_ED                         39   41   Num  HCUP Emergency Department service indicator
+NIS 2022 NIS_2022_Core                15 HOSP_DIVISION                   42   43   Num  Census Division of hospital (STRATA)
+NIS 2022 NIS_2022_Core                16 HOSP_NIS                        44   48   Num  NIS hospital number
+NIS 2022 NIS_2022_Core                17 I10_BIRTH                       49   51   Num  ICD-10-CM Birth Indicator
+NIS 2022 NIS_2022_Core                18 I10_DELIVERY                    52   54   Num  ICD-10-CM Delivery Indicator
+NIS 2022 NIS_2022_Core                19 I10_DX1                         55   61   Char ICD-10-CM Diagnosis 1
+NIS 2022 NIS_2022_Core                20 I10_DX2                         62   68   Char ICD-10-CM Diagnosis 2
+NIS 2022 NIS_2022_Core                21 I10_DX3                         69   75   Char ICD-10-CM Diagnosis 3
+NIS 2022 NIS_2022_Core                22 I10_DX4                         76   82   Char ICD-10-CM Diagnosis 4
+NIS 2022 NIS_2022_Core                23 I10_DX5                         83   89   Char ICD-10-CM Diagnosis 5
+NIS 2022 NIS_2022_Core                24 I10_DX6                         90   96   Char ICD-10-CM Diagnosis 6
+NIS 2022 NIS_2022_Core                25 I10_DX7                         97  103   Char ICD-10-CM Diagnosis 7
+NIS 2022 NIS_2022_Core                26 I10_DX8                        104  110   Char ICD-10-CM Diagnosis 8
+NIS 2022 NIS_2022_Core                27 I10_DX9                        111  117   Char ICD-10-CM Diagnosis 9
+NIS 2022 NIS_2022_Core                28 I10_DX10                       118  124   Char ICD-10-CM Diagnosis 10
+NIS 2022 NIS_2022_Core                29 I10_DX11                       125  131   Char ICD-10-CM Diagnosis 11
+NIS 2022 NIS_2022_Core                30 I10_DX12                       132  138   Char ICD-10-CM Diagnosis 12
+NIS 2022 NIS_2022_Core                31 I10_DX13                       139  145   Char ICD-10-CM Diagnosis 13
+NIS 2022 NIS_2022_Core                32 I10_DX14                       146  152   Char ICD-10-CM Diagnosis 14
+NIS 2022 NIS_2022_Core                33 I10_DX15                       153  159   Char ICD-10-CM Diagnosis 15
+NIS 2022 NIS_2022_Core                34 I10_DX16                       160  166   Char ICD-10-CM Diagnosis 16
+NIS 2022 NIS_2022_Core                35 I10_DX17                       167  173   Char ICD-10-CM Diagnosis 17
+NIS 2022 NIS_2022_Core                36 I10_DX18                       174  180   Char ICD-10-CM Diagnosis 18
+NIS 2022 NIS_2022_Core                37 I10_DX19                       181  187   Char ICD-10-CM Diagnosis 19
+NIS 2022 NIS_2022_Core                38 I10_DX20                       188  194   Char ICD-10-CM Diagnosis 20
+NIS 2022 NIS_2022_Core                39 I10_DX21                       195  201   Char ICD-10-CM Diagnosis 21
+NIS 2022 NIS_2022_Core                40 I10_DX22                       202  208   Char ICD-10-CM Diagnosis 22
+NIS 2022 NIS_2022_Core                41 I10_DX23                       209  215   Char ICD-10-CM Diagnosis 23
+NIS 2022 NIS_2022_Core                42 I10_DX24                       216  222   Char ICD-10-CM Diagnosis 24
+NIS 2022 NIS_2022_Core                43 I10_DX25                       223  229   Char ICD-10-CM Diagnosis 25
+NIS 2022 NIS_2022_Core                44 I10_DX26                       230  236   Char ICD-10-CM Diagnosis 26
+NIS 2022 NIS_2022_Core                45 I10_DX27                       237  243   Char ICD-10-CM Diagnosis 27
+NIS 2022 NIS_2022_Core                46 I10_DX28                       244  250   Char ICD-10-CM Diagnosis 28
+NIS 2022 NIS_2022_Core                47 I10_DX29                       251  257   Char ICD-10-CM Diagnosis 29
+NIS 2022 NIS_2022_Core                48 I10_DX30                       258  264   Char ICD-10-CM Diagnosis 30
+NIS 2022 NIS_2022_Core                49 I10_DX31                       265  271   Char ICD-10-CM Diagnosis 31
+NIS 2022 NIS_2022_Core                50 I10_DX32                       272  278   Char ICD-10-CM Diagnosis 32
+NIS 2022 NIS_2022_Core                51 I10_DX33                       279  285   Char ICD-10-CM Diagnosis 33
+NIS 2022 NIS_2022_Core                52 I10_DX34                       286  292   Char ICD-10-CM Diagnosis 34
+NIS 2022 NIS_2022_Core                53 I10_DX35                       293  299   Char ICD-10-CM Diagnosis 35
+NIS 2022 NIS_2022_Core                54 I10_DX36                       300  306   Char ICD-10-CM Diagnosis 36
+NIS 2022 NIS_2022_Core                55 I10_DX37                       307  313   Char ICD-10-CM Diagnosis 37
+NIS 2022 NIS_2022_Core                56 I10_DX38                       314  320   Char ICD-10-CM Diagnosis 38
+NIS 2022 NIS_2022_Core                57 I10_DX39                       321  327   Char ICD-10-CM Diagnosis 39
+NIS 2022 NIS_2022_Core                58 I10_DX40                       328  334   Char ICD-10-CM Diagnosis 40
+NIS 2022 NIS_2022_Core                59 I10_INJURY                     335  336   Num  Injury ICD-10-CM diagnosis reported on record (1: First-listed injury; 2: Other than first-listed injury; 0: No injury)
+NIS 2022 NIS_2022_Core                60 I10_MULTINJURY                 337  338   Num  Multiple ICD-10-CM injuries reported on record
+NIS 2022 NIS_2022_Core                61 I10_NDX                        339  340   Num  ICD-10-CM Number of diagnoses on this record
+NIS 2022 NIS_2022_Core                62 I10_NPR                        341  342   Num  ICD-10-PCS Number of procedures on this record
+NIS 2022 NIS_2022_Core                63 I10_PR1                        343  349   Char ICD-10-PCS Procedure 1
+NIS 2022 NIS_2022_Core                64 I10_PR2                        350  356   Char ICD-10-PCS Procedure 2
+NIS 2022 NIS_2022_Core                65 I10_PR3                        357  363   Char ICD-10-PCS Procedure 3
+NIS 2022 NIS_2022_Core                66 I10_PR4                        364  370   Char ICD-10-PCS Procedure 4
+NIS 2022 NIS_2022_Core                67 I10_PR5                        371  377   Char ICD-10-PCS Procedure 5
+NIS 2022 NIS_2022_Core                68 I10_PR6                        378  384   Char ICD-10-PCS Procedure 6
+NIS 2022 NIS_2022_Core                69 I10_PR7                        385  391   Char ICD-10-PCS Procedure 7
+NIS 2022 NIS_2022_Core                70 I10_PR8                        392  398   Char ICD-10-PCS Procedure 8
+NIS 2022 NIS_2022_Core                71 I10_PR9                        399  405   Char ICD-10-PCS Procedure 9
+NIS 2022 NIS_2022_Core                72 I10_PR10                       406  412   Char ICD-10-PCS Procedure 10
+NIS 2022 NIS_2022_Core                73 I10_PR11                       413  419   Char ICD-10-PCS Procedure 11
+NIS 2022 NIS_2022_Core                74 I10_PR12                       420  426   Char ICD-10-PCS Procedure 12
+NIS 2022 NIS_2022_Core                75 I10_PR13                       427  433   Char ICD-10-PCS Procedure 13
+NIS 2022 NIS_2022_Core                76 I10_PR14                       434  440   Char ICD-10-PCS Procedure 14
+NIS 2022 NIS_2022_Core                77 I10_PR15                       441  447   Char ICD-10-PCS Procedure 15
+NIS 2022 NIS_2022_Core                78 I10_PR16                       448  454   Char ICD-10-PCS Procedure 16
+NIS 2022 NIS_2022_Core                79 I10_PR17                       455  461   Char ICD-10-PCS Procedure 17
+NIS 2022 NIS_2022_Core                80 I10_PR18                       462  468   Char ICD-10-PCS Procedure 18
+NIS 2022 NIS_2022_Core                81 I10_PR19                       469  475   Char ICD-10-PCS Procedure 19
+NIS 2022 NIS_2022_Core                82 I10_PR20                       476  482   Char ICD-10-PCS Procedure 20
+NIS 2022 NIS_2022_Core                83 I10_PR21                       483  489   Char ICD-10-PCS Procedure 21
+NIS 2022 NIS_2022_Core                84 I10_PR22                       490  496   Char ICD-10-PCS Procedure 22
+NIS 2022 NIS_2022_Core                85 I10_PR23                       497  503   Char ICD-10-PCS Procedure 23
+NIS 2022 NIS_2022_Core                86 I10_PR24                       504  510   Char ICD-10-PCS Procedure 24
+NIS 2022 NIS_2022_Core                87 I10_PR25                       511  517   Char ICD-10-PCS Procedure 25
+NIS 2022 NIS_2022_Core                88 I10_SERVICELINE                518  520   Num  ICD-10-CM/PCS Hospital Service Line
+NIS 2022 NIS_2022_Core                89 KEY_NIS                        521  530   Num  NIS record number
+NIS 2022 NIS_2022_Core                90 LOS                            531  535   Num  Length of stay (cleaned)
+NIS 2022 NIS_2022_Core                91 MDC                            536  537   Num  MDC in effect on discharge date
+NIS 2022 NIS_2022_Core                92 MDC_NoPOA                      538  539   Num  MDC in use on discharge date, calculated without POA
+NIS 2022 NIS_2022_Core                93 NIS_STRATUM                    540  543   Num  NIS hospital stratum
+NIS 2022 NIS_2022_Core                94 PAY1                           544  545   Num  Primary expected payer (uniform)
+NIS 2022 NIS_2022_Core                95 PCLASS_ORPROC                  546  547   Num  Indicates operating room (major diagnostic or therapeutic) procedure on the record
+NIS 2022 NIS_2022_Core                96 PL_NCHS                        548  550   Num  Patient Location: NCHS Urban-Rural Code
+NIS 2022 NIS_2022_Core                97 PRDAY1                         551  553   Num  Number of days from admission to I10_PR1
+NIS 2022 NIS_2022_Core                98 PRDAY2                         554  556   Num  Number of days from admission to I10_PR2
+NIS 2022 NIS_2022_Core                99 PRDAY3                         557  559   Num  Number of days from admission to I10_PR3
+NIS 2022 NIS_2022_Core               100 PRDAY4                         560  562   Num  Number of days from admission to I10_PR4
+NIS 2022 NIS_2022_Core               101 PRDAY5                         563  565   Num  Number of days from admission to I10_PR5
+NIS 2022 NIS_2022_Core               102 PRDAY6                         566  568   Num  Number of days from admission to I10_PR6
+NIS 2022 NIS_2022_Core               103 PRDAY7                         569  571   Num  Number of days from admission to I10_PR7
+NIS 2022 NIS_2022_Core               104 PRDAY8                         572  574   Num  Number of days from admission to I10_PR8
+NIS 2022 NIS_2022_Core               105 PRDAY9                         575  577   Num  Number of days from admission to I10_PR9
+NIS 2022 NIS_2022_Core               106 PRDAY10                        578  580   Num  Number of days from admission to I10_PR10
+NIS 2022 NIS_2022_Core               107 PRDAY11                        581  583   Num  Number of days from admission to I10_PR11
+NIS 2022 NIS_2022_Core               108 PRDAY12                        584  586   Num  Number of days from admission to I10_PR12
+NIS 2022 NIS_2022_Core               109 PRDAY13                        587  589   Num  Number of days from admission to I10_PR13
+NIS 2022 NIS_2022_Core               110 PRDAY14                        590  592   Num  Number of days from admission to I10_PR14
+NIS 2022 NIS_2022_Core               111 PRDAY15                        593  595   Num  Number of days from admission to I10_PR15
+NIS 2022 NIS_2022_Core               112 PRDAY16                        596  598   Num  Number of days from admission to I10_PR16
+NIS 2022 NIS_2022_Core               113 PRDAY17                        599  601   Num  Number of days from admission to I10_PR17
+NIS 2022 NIS_2022_Core               114 PRDAY18                        602  604   Num  Number of days from admission to I10_PR18
+NIS 2022 NIS_2022_Core               115 PRDAY19                        605  607   Num  Number of days from admission to I10_PR19
+NIS 2022 NIS_2022_Core               116 PRDAY20                        608  610   Num  Number of days from admission to I10_PR20
+NIS 2022 NIS_2022_Core               117 PRDAY21                        611  613   Num  Number of days from admission to I10_PR21
+NIS 2022 NIS_2022_Core               118 PRDAY22                        614  616   Num  Number of days from admission to I10_PR22
+NIS 2022 NIS_2022_Core               119 PRDAY23                        617  619   Num  Number of days from admission to I10_PR23
+NIS 2022 NIS_2022_Core               120 PRDAY24                        620  622   Num  Number of days from admission to I10_PR24
+NIS 2022 NIS_2022_Core               121 PRDAY25                        623  625   Num  Number of days from admission to I10_PR25
+NIS 2022 NIS_2022_Core               122 RACE                           626  627   Num  Race (uniform)
+NIS 2022 NIS_2022_Core               123 TOTCHG                         628  637   Num  Total charges (cleaned)
+NIS 2022 NIS_2022_Core               124 TRAN_IN                        638  639   Num  Transfer in indicator
+NIS 2022 NIS_2022_Core               125 TRAN_OUT                       640  641   Num  Transfer out indicator
+NIS 2022 NIS_2022_Core               126 YEAR                           642  645   Num  Calendar year
+NIS 2022 NIS_2022_Core               127 ZIPINC_QRTL                    646  647   Num  Median household income national quartile for patient ZIP Code
