@@ -4,17 +4,22 @@ import time
 
 n_rows = None
 
-keep = {
+keep = [
     'APRDRG','APRDRG_Risk_Mortality','APRDRG_Severity',
-    'DRG','DRG_NoPOA','HOSP_NIS',#'HOSPID',
-    'I10_DXn','I10_NDX','I10_PRn',
+    'DRG','DRG_NoPOA','HOSP_NIS','HOSPID',
+    'I10_DXn',
+    'I10_NDX',
+    'I10_PRn',
     'KEY_NIS',
-    'PAY1',#'PAY1_N','PAY1_X','PAY2','PAY2_N','PAY2_X',
+    'PAY1','PAY1_N','PAY1_X','PAY2','PAY2_N','PAY2_X',
     'PCLASS_ORPROC','PRCCSR_aaannn',
-    'TOTCHG',#'TOTCHG_X'
-}
-# keep = None
+    'TOTCHG','TOTCHG_X'
+]
+keep = keep + [f'I10_PR{i}' for i in range(1, 26)]
 keep_type = 'Sarah_'
+
+# keep = None
+# keep_type = ''
 filetypes   = ['Core', 'Severity', 'DX_PR_GRPS', 'Hospital']
 base_pattern = 'NIS_2022_{}'
 prefix = f'samples_{n_rows}_' if n_rows is not None else ''
@@ -53,12 +58,14 @@ for ft in filetypes:
             if name in keep
         ]
         if not filtered:
-            raise ValueError(f"No matching columns found in {ft}; check your `keep` set.")
+            print(f"No matching columns found in {ft}")
+            continue
+
         colspecs_sub, names_sub = zip(*filtered)
         found.update(names_sub)
 
-    # read and write in chunk style
-    chunksize = 1_000_000
+    # read and write in chunk
+    chunksize = 200_000
     reader = pd.read_fwf(
         asc_path,
         colspecs=colspecs_sub,
